@@ -12,5 +12,6 @@ public class sumTest {
 		assertEquals(s1.sumador("2,3"),5);
 		assertEquals(s1.sumador("3"),3);
 		assertEquals(s1.sumador("3,6"),9);
+		assertEquals(s1.sumador("3,6,15,18,46,33"),3+6+15+18+46+33);
 	}
 }
