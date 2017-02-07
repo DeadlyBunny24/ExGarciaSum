@@ -10,5 +10,7 @@ public class sumTest {
 	public void test() {
 		sum s1 = new sum();
 		assertEquals(s1.sumador("2,3"),5);
+		assertEquals(s1.sumador("3"),3);
+		assertEquals(s1.sumador("3,6"),9);
 	}
 }
